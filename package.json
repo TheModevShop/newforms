@@ -47,7 +47,7 @@
     "vinyl-source-stream": "^1.0.0"
   },
   "peerDependencies": {
-    "react": ">=0.13.0"
+
   },
   "scripts": {
     "dist": "gulp browserify-js --production --release && gulp browserify-js --development --release",
