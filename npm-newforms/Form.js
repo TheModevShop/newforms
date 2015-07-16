@@ -574,6 +574,7 @@ Form.prototype._cancelPendingOperations = function() {
 Form.prototype._handleFieldEvent = function(validation, e) {
   // Update form.data with the current value of the field which is the target of
   // the event.
+  e.target = e.target || e.currentTarget;
   var htmlName = e.target.name
   var fieldName = this.removePrefix(e.target.getAttribute('data-newforms-field') || htmlName)
   var field = this.fields[fieldName]
