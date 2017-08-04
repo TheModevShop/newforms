@@ -2,7 +2,7 @@
 
 var React = require('react')
 var createClass = require('create-react-class')
-var PropTypes = require('proptypes')
+var PropTypes = require('prop-types')
 var BoundField = require('../BoundField')
 var ProgressMixin = require('./ProgressMixin')
 
