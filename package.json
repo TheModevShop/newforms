@@ -21,9 +21,11 @@
   },
   "dependencies": {
     "Concur": "^0.3.0",
+    "create-react-class": "^15.6.0",
     "envify": "^3.4.0",
     "get-form-data": "^1.2.1",
     "isomorph": "^0.3.0",
+    "proptypes": "^1.1.0",
     "validators": "^0.3.1"
   },
   "devDependencies": {
